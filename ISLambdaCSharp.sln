@@ -7,13 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E66B9B10-A98
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DBC6552D-4B95-4A09-B521-7C2D152BE061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISLambdaCSharp.Domain", "src\ISLambdaCSharp.Domain\ISLambdaCSharp.Domain.csproj", "{F789910C-1800-45D9-B2EA-A1EE15F3C4AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISLambdaCSharp.Domain", "src\ISLambdaCSharp.Domain\ISLambdaCSharp.Domain.csproj", "{F789910C-1800-45D9-B2EA-A1EE15F3C4AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISLambdaCSharp.Domain.Test", "test\ISLambdaCSharp.Domain.Test\ISLambdaCSharp.Domain.Test.csproj", "{BDC8D992-5EA9-4F95-A158-B2C1BDD90D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISLambdaCSharp.Domain.Test", "test\ISLambdaCSharp.Domain.Test\ISLambdaCSharp.Domain.Test.csproj", "{BDC8D992-5EA9-4F95-A158-B2C1BDD90D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISLambdaCSharp.TestDAL", "test\ISLambdaCSharp.TestDAL\ISLambdaCSharp.TestDAL.csproj", "{FE85185C-D5FA-4850-A931-41DAB204F7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISLambdaCSharp.TestDAL", "test\ISLambdaCSharp.TestDAL\ISLambdaCSharp.TestDAL.csproj", "{FE85185C-D5FA-4850-A931-41DAB204F7CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISLambdaCSharp.DAL", "src\ISLambdaCSharp.DAL\ISLambdaCSharp.DAL.csproj", "{113CC1BA-39D4-4EAD-A3FF-28496C76DEC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISLambdaCSharp.DAL", "src\ISLambdaCSharp.DAL\ISLambdaCSharp.DAL.csproj", "{113CC1BA-39D4-4EAD-A3FF-28496C76DEC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISLambdaCSharp.TestConsole", "test\ISLambdaCSharp.TestConsole\ISLambdaCSharp.TestConsole.csproj", "{47897A6C-BF71-43B8-80AD-0AFE0BD3CF73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISLambdaCSharp.Functions", "src\ISLambdaCSharp.Functions\ISLambdaCSharp.Functions.csproj", "{24F32857-AE5C-44B1-AE69-84DCB0BDE157}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISLambdaCSharp.Functions.Tests", "test\ISLambdaCSharp.Functions.Tests\ISLambdaCSharp.Functions.Tests.csproj", "{E3A0A8DB-6E32-41D8-9C5A-4A647473D3BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,18 @@ Global
 		{113CC1BA-39D4-4EAD-A3FF-28496C76DEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{113CC1BA-39D4-4EAD-A3FF-28496C76DEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{113CC1BA-39D4-4EAD-A3FF-28496C76DEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47897A6C-BF71-43B8-80AD-0AFE0BD3CF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47897A6C-BF71-43B8-80AD-0AFE0BD3CF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47897A6C-BF71-43B8-80AD-0AFE0BD3CF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47897A6C-BF71-43B8-80AD-0AFE0BD3CF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F32857-AE5C-44B1-AE69-84DCB0BDE157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F32857-AE5C-44B1-AE69-84DCB0BDE157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F32857-AE5C-44B1-AE69-84DCB0BDE157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F32857-AE5C-44B1-AE69-84DCB0BDE157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A0A8DB-6E32-41D8-9C5A-4A647473D3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A0A8DB-6E32-41D8-9C5A-4A647473D3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A0A8DB-6E32-41D8-9C5A-4A647473D3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A0A8DB-6E32-41D8-9C5A-4A647473D3BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +64,9 @@ Global
 		{BDC8D992-5EA9-4F95-A158-B2C1BDD90D38} = {DBC6552D-4B95-4A09-B521-7C2D152BE061}
 		{FE85185C-D5FA-4850-A931-41DAB204F7CE} = {DBC6552D-4B95-4A09-B521-7C2D152BE061}
 		{113CC1BA-39D4-4EAD-A3FF-28496C76DEC2} = {E66B9B10-A980-48DF-B129-B80C896ECCD3}
+		{47897A6C-BF71-43B8-80AD-0AFE0BD3CF73} = {DBC6552D-4B95-4A09-B521-7C2D152BE061}
+		{24F32857-AE5C-44B1-AE69-84DCB0BDE157} = {E66B9B10-A980-48DF-B129-B80C896ECCD3}
+		{E3A0A8DB-6E32-41D8-9C5A-4A647473D3BA} = {DBC6552D-4B95-4A09-B521-7C2D152BE061}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2EBDA8B-0308-4F0A-B2B2-2C3975E5FEC2}
